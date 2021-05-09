@@ -1,0 +1,6 @@
+<div>
+  <div *ngFor="let value of values">
+    <input type="radio" name="gender" [id]="value" [(ngModel)]="currentValue"/>
+    <label [for]="value">Value</label>
+  </div>
+</div>
